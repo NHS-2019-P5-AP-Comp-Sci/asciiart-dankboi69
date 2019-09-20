@@ -1,27 +1,43 @@
-/**
- * Unit 1 Project
- * 
- * In this project you have the opportunity to create a piece of artwork using ASCII 
- * (American Standard Code for Information Interchange). Using the already created file 
- * named `ASCIIArt.java` write a program that outputs your artwork to the console. 
- * The goal of this project is to use ONLY what we have learned in Unit 1 to create 
- * anything you would like so be creative (and school appropriate). Artwork must also have a caption describing what it's depicting.  
- * 
- * For those of you who have dabbled in coding before, try to contain your code to 
- * just what we have discussed in this unit.  
- * 
- * @author Mr. Rasmussen 
- *
+/*I would have implemented more methods, such as "horizontalbar", but the lines for this 
+ascii art are so random creating new methods would actually increase the work 
+needed to write the code. Also, in case you are wondering, my two special string characters are the \n
+new line as well as the \\ in order to print out a \
  */
-
-// YOU CODE HERE :) 
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		rasmussen();
+		is();
+		our();
+		god();
+	}
+	public static void rasmussen () {
+		System.out.print("  ___\n");
+		System.out.print(" | _ \\__ _ ____ __ _  _ ______ ___ _ _  \n");
+		System.out.print(" |   / _` (_-< '  \\ || (_-<_-</ -_) ' \\  \n");
+		System.out.print(" |_|_\\__,_/__/_|_|_\\_,_/__/__/\\___|_||_|\n");
+		System.out.println();
+		
+	}
+	public static void is () {
+		System.out.print("  _ _\n");
+		System.out.print(" |_ _|___\n");
+		System.out.print("  | |(_-<  \n");
+		System.out.print(" |___/__/\n");
+		System.out.println();
+	}
+	public static void our () {
+		System.out.print("   ___          \n");
+		System.out.print("  / _ \\ _  _ _ _ \n");
+		System.out.print(" | (_) | || | '_|\n");
+		System.out.print("  \\___/ \\_,_|_|  \n");
+		System.out.println();
+	}
+	public static void god () {
+		System.out.print("    _          _\n");
+		System.out.print("  / __|___  __| |\n");
+		System.out.print(" | (_ / _ \\/ _` |\n");
+		System.out.print("  \\___\\___/\\__,_|\n");
+		System.out.println();
 	}
 }
